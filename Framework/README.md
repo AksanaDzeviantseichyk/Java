@@ -26,7 +26,7 @@ https://demoaa.com/
 ## Test scenarios
 
 ### 1. Alerts
-|¹| Step | Expected result |
+| N | Step | Expected result |
 |---| --- | --- |
 | 1 | Navigate to main page | Main page is open |
 | 2 | Click on Alerts, Frame & Windows button. In a menu click Alerts button | Alerts form has appeared on page |
@@ -38,19 +38,28 @@ https://demoaa.com/
 | 8 | Enter randomly generated text, click OK button | Alert has closed. Appeared text equals to the one you've entered before |
 
 ### 2. Iframe
-|¹| Step | Expected result |
+|N| Step | Expected result |
 |---| --- | --- |
 | 1 | Navigate to main page | Main page is open |
 | 2 | Click on Alerts, Frame &	Windows button. In a menu click Nested Frames button | Page with Nested Frames form is open. There are messages "Parent frame" & "Child Iframe" present on page |
 | 3 | Select Frames option in a left menu | Page with Frames form is open. Message from upper frame is equal to the message from lower frame |
 	
-
 ### 3. Tables
-|¹| Step | Expected result |
+| User N | First Name | Last Name | Email | Age | Salary | Department |
 |---| --- | --- |
+| 1 |	Jon |	Snow |	knownothing@gmail.com | 30 |	3000 |	alpha |
+| 2 |	Buttercup |	Cumbersnatch |	BudapestCandygram@mail.io | 41 |	2000	| beta |
+
+| N | Step | Expected result |
+|---| --- | --- |
+| 1 | Navigate to main page	| Main page is open |
+| 2 | Click on Elements button. In the menu click a Web Tables button |	Page with Web Tables form is open |
+| 3 | Click on Add button	Registration | Form has appeared on page |
+| 4 | Enter data for User N from the table and then click Submit button |	Registration form has closed. Data of User N has appeared in a table |
+| 5 | Click Delete button in a row which contains data of User N | Number of records in table has changed. Data of User N has been deleted from table | 
 
 ### 4. Handles
-|¹| Step | Expected result |
+| N | Step | Expected result |
 |---| --- | --- |
 | 1 | Navigate to main page | Main page is open |
 | 2 |	Click on Alerts,Frame & Windows button. In the menu click a Browser Windows button | Page with Browser Windows form is open |
