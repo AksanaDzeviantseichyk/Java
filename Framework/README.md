@@ -28,15 +28,14 @@ https://demoaa.com/
 ### 2. Iframe
 ### 3. Tables
 ### 4. Handles
-#	Step	Expected result
-1	Navigate to main page																							Main page is open
-2	Click on Alerts,Frame & Windows button
- In the menu click a Browser Windows button			Page with Browser Windows form is open
-3	Click on New Tab button																					New tab with sample page is open
-4	Close current tab																											Page with Browser Windows form is open
-5	In the menu on the left click Elements
- —> Links button																														Page with Links form is open
-6	Click on Home link																										New tab with main page is open
-7	Resume to previous tab																						Page with Links form is open
+|¹| Step | Expected result |
+|---| --- | --- |
+| 1 | Navigate to main page | Main page is open |
+| 2 |	Click on Alerts,Frame & Windows button. In the menu click a Browser Windows button | Page with Browser Windows form is open |
+| 3 | Click on New Tab button | New tab with sample page is open |
+| 4 | Close current tab | Page with Browser Windows form is open |
+| 5 | In the menu on the left click Elements —> Links button | Page with Links form is open |
+| 6 | Click on Home link | New tab with main page is open |
+| 7 | Resume to previous tab | Page with Links form is open |
 
 
