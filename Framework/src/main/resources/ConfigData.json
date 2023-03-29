@@ -1,0 +1,7 @@
+{
+  "url": "https://demoqa.com/",
+  "nameBrowser": "Chrome",
+  "mode": "--incognito",
+  "smallWait": "20",
+  "largeWait": "50"
+}
