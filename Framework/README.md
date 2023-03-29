@@ -46,7 +46,7 @@ https://demoaa.com/
 	
 ### 3. Tables
 | User N | First Name | Last Name | Email | Age | Salary | Department |
-|---| --- | --- |
+|---| --- | --- |---| --- |--- |--- |
 | 1 |	Jon |	Snow |	knownothing@gmail.com | 30 |	3000 |	alpha |
 | 2 |	Buttercup |	Cumbersnatch |	BudapestCandygram@mail.io | 41 |	2000	| beta |
 
