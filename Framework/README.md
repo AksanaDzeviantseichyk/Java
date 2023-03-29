@@ -24,9 +24,31 @@
 ## Site
 https://demoaa.com/
 ## Test scenarios
+
 ### 1. Alerts
+|¹| Step | Expected result |
+|---| --- | --- |
+| 1 | Navigate to main page | Main page is open |
+| 2 | Click on Alerts, Frame & Windows button. In a menu click Alerts button | Alerts form has appeared on page |
+| 3 | Click on Click Button to see alert button | Alert with text "You clicked a button" is open |
+| 4 | Click OK button | Alert has closed |
+| 5 | Click on On button click, confirm box will appear button | Alert with text "Do you confirm action?" is open |
+| 6 | Click on OK button | Alert has closed. Text "You selected Ok" has appeared on page |
+| 7 | Click on On button click, prompt box will appear button | Alert with text "Please enter your name" is open |
+| 8 | Enter randomly generated text, click OK button | Alert has closed. Appeared text equals to the one you've entered before |
+
 ### 2. Iframe
+|¹| Step | Expected result |
+|---| --- | --- |
+| 1 | Navigate to main page | Main page is open |
+| 2 | Click on Alerts, Frame &	Windows button. In a menu click Nested Frames button | Page with Nested Frames form is open. There are messages "Parent frame" & "Child Iframe" present on page |
+| 3 | Select Frames option in a left menu | Page with Frames form is open. Message from upper frame is equal to the message from lower frame |
+	
+
 ### 3. Tables
+|¹| Step | Expected result |
+|---| --- | --- |
+
 ### 4. Handles
 |¹| Step | Expected result |
 |---| --- | --- |
